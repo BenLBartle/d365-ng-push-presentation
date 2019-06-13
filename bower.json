@@ -20,5 +20,8 @@
     "node_modules",
     "bower_components",
     "test"
-  ]
+  ],
+  "dependencies": {
+    "comicbubbles": "^1.1.0"
+  }
 }

@@ -18,11 +18,8 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  *********************************************/
 body {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+50,8fcfea+100 */
-background: #e4f5fc; /* Old browsers */
-background: -moz-linear-gradient(top,  #e4f5fc 0%, #bfe8f9 50%, #8fcfea 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#8fcfea 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #e4f5fc 0%,#bfe8f9 50%,#8fcfea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#8fcfea',GradientType=0 ); /* IE6-9 */
+  background: rgb(105,99,212);
+background: linear-gradient(0deg, rgba(105,99,212,1) 0%, rgba(73,131,200,1) 0%, rgba(177,220,254,1) 100%);
  }
 
 .reveal {

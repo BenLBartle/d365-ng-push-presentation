@@ -246,7 +246,9 @@
 				<div class="cbbl -left">
 					Isn't this just the same as
 					<br />
-					<a href="https://appsource.microsoft.com/en-us/product/dynamics-365/365mechanix.365-notify?flightCodes=leadgenhidekey&tab=Overview">D365 Notify</a>?
+					<a
+						href="https://appsource.microsoft.com/en-us/product/dynamics-365/365mechanix.365-notify?flightCodes=leadgenhidekey&tab=Overview">D365
+						Notify</a>?
 				</div>
 				<div>
 					<img class="sprite-standard" data-src="lib/img/ben3.png" />
@@ -306,8 +308,9 @@
 			<section>
 				<div class="cbbl -right">
 					Head on over to:
-					<br/>
-					<a href="https://github.com/benlbartle/d365-ng-push/" target="_blank">https://github.com/benlbartle/d365-ng-push/</a>
+					<br />
+					<a href="https://github.com/benlbartle/d365-ng-push/"
+						target="_blank">https://github.com/benlbartle/d365-ng-push/</a>
 					<br />
 					<br />
 					And send me a pull request. Thanks!
@@ -320,11 +323,12 @@
 				<div>
 					<h2>With Thanks:</h2>
 					<ul>
-						<li><a href="https://www.linkedin.com/in/peter-cooney-b47097a1/" target="_blank">Peter Cooney</a></li>
+						<li><a href="https://www.linkedin.com/in/peter-cooney-b47097a1/" target="_blank">Peter
+								Cooney</a></li>
 						<li><a href="https://kaisermann.me/" target="_blank">Christian Kaisermann</a></li>
 						<li><a href="https://twitter.com/365bruce/" target="_blank">Bruce Sithole</a></li>
 						<li><a href="https://www.thelazyred.com/" target="_blank">Jess @ The Lazy Red</a></li>
-						
+
 					</ul>
 				</div>
 				<div>
@@ -353,7 +357,16 @@
 		// - https://github.com/hakimel/reveal.js#configuration
 		// - https://github.com/hakimel/reveal.js#dependencies
 		Reveal.initialize({
+			multiplex: {
+				// Example values. To generate your own, see the socket.io server instructions.
+				secret: '15610351624256898880', // Obtained from the socket.io server. Gives this (the master) control of the presentation
+				id: '7e41db0dd1dc213e', // Obtained from socket.io server
+				url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh' // Location of socket.io server
+			},
+
 			dependencies: [
+				{ src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js', async: true },
+				{ src: 'plugin/multiplex/master.js', async: true },
 				{ src: 'plugin/markdown/marked.js' },
 				{ src: 'plugin/markdown/markdown.js' },
 				{ src: 'plugin/notes/notes.js', async: true },

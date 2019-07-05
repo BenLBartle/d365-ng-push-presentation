@@ -292,7 +292,7 @@ background: linear-gradient(0deg, rgba(105,99,212,1) 0%, rgba(73,131,200,1) 0%, 
     position: absolute;
     bottom: 2%;
     left: 2%;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 .footer-right {
@@ -300,7 +300,7 @@ background: linear-gradient(0deg, rgba(105,99,212,1) 0%, rgba(73,131,200,1) 0%, 
   position: absolute;
   bottom: 2%;
   right: 2%;
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 /*********************************************

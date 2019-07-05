@@ -37,7 +37,7 @@
 			<!-- Intro Slide -->
 			<section>
 				<div class="cbbl -right">
-					Hello, I'm Ben.
+					Hi, I'm Ben.
 				</div>
 				<div>
 					<img class="sprite-standard" data-src="lib/img/ben1.png">
@@ -62,13 +62,14 @@
 					<br />and how you can have the cool stuff, for free. 😎
 				</div>
 				<div>
-					<img class="sprite-standard" data-src="lib/img/ben3.png">
+					<img class="sprite-standard" data-src="lib/img/ben1.png">
 				</div>
 			</section>
 			<!-- Problem -->
 			<section>
+				<h2>The Problem:</h2>
 				<div class="cbbl -left">
-					This all started with a problem statement from a colleague...
+					How do we alert our users that stuff that <u>is important to them</u> has happened, so they can <u>take action</u>?
 				</div>
 				<div>
 					<img class="sprite-standard" data-src="lib/img/ben3.png" />
@@ -82,23 +83,25 @@
 			</section>
 			<section>
 				<div class="cbbl -left">
-					There has to be a better way, right?
+					But but, flow does this?
+					<br />
+					<img data-src="lib/img/notifications.png" />
 				</div>
 				<div>
 					<img class="sprite-standard" data-src="lib/img/ben3.png" />
 				</div>
 			</section>
 			<section>
-				<div class="cbbl -right">
-					Right!
-				</div>
-				<div>
-					<img class="sprite-wizard" data-src="lib/img/ben4.png" />
-				</div>
-			</section>
-			<section>
-				But what about this? *Insert Icon for Notification from flow*
-			</section>
+					<div>
+						<h2>The Rules:</h2>
+						<ul>
+							<li class="fragment fade-in">Notifications must be timely and straight to the user</li>
+							<li class="fragment fade-in">Sending notifications configurable by a "super user"</li>
+							<li class="fragment fade-in">Users can opt-in or out</li>
+							<li class="fragment fade-in">Notifications must provide <u>context</u>, be <u>targeted</u>, with a <u>relevant action</u></li>
+						</ul>
+					</div>
+				</section>
 			<section>
 				<div class="cbbl -left">
 					But what about my Mum?
@@ -114,7 +117,7 @@
 			</section>
 			<section>
 				<div class="cbbl -left fragment fade-out">
-					Exactly!
+					Exactly! There is a better way
 				</div>
 				<div class="cbbl -right fragment fade-in">
 					We can use the <u>Push API</u>...
@@ -240,10 +243,15 @@
 					Yup!
 					<br />
 					<br />
-					...it doesn't work in iOS Safari, yet, but watch this space.
+					...it doesn't work in iOS Safari, but Chrome on Android....
 				</div>
 				<div>
 					<img class="sprite-wizard" data-src="lib/img/ben4.png" />
+				</div>
+			</section>
+			<section>
+				<div>
+					<img class="android-screenshot" data-src="lib/img/android.gif" />
 				</div>
 			</section>
 			<section>
@@ -303,6 +311,65 @@
 			</section>
 			<section>
 				<div class="cbbl -left">
+					Hmm, JavaScript Frameworks, Google APIs...
+					<br />
+					<br />
+					Surely this thing writes itself?
+				</div>
+				<div>
+					<img class="sprite-standard" data-src="lib/img/ben3.png" />
+				</div>
+			</section>
+			<section>
+				<div class="cbbl -right">
+					Actually it was more difficult than you would think.
+				</div>
+				<div>
+					<img class="sprite-wizard" data-src="lib/img/ben4.png" />
+				</div>
+			</section>
+			<section>
+				<div>
+					<h2>The Challenges:</h2>
+					<ul>
+						<li class="fragment fade-in">Modern PWAs really <strong>really</strong> want your app to be hosted at the root</li>
+						<li class="fragment fade-in">Modern PWAs want to use lazy module loading and bundle hashes</li>
+						<li class="fragment fade-in">Firebase wants to know settings at compile time</li>
+						<li class="fragment fade-in">Custom flow connectors, enough said</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div class="cbbl -left">
+					Yeah yeah, but now you've solved those....
+					<br />
+					<br />
+					It's perfect, right?
+				</div>
+				<div>
+					<img class="sprite-standard" data-src="lib/img/ben3.png" />
+				</div>
+			</section>
+			<section>
+				<div class="cbbl -right">
+					Well, one thing about the Firebase
+				</div>
+				<div>
+					<img class="sprite-wizard" data-src="lib/img/ben4.png" />
+				</div>
+			</section>
+			<section>
+				<div>
+					<h2>FCM:</h2>
+					<ul>
+						<li class="fragment fade-in">Uses a service worker to deal with background notifications</li>
+						<li class="fragment fade-in">Offers a rich client API for foreground notifications</li>
+						<li class="fragment fade-in">Best practice in PWA says that you would handle foreground messages differently to background</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div class="cbbl -left">
 					Can I have it?
 					<br />
 					<br />
@@ -356,6 +423,19 @@
 				</div>
 				<div>
 					<img class="sprite-wizard" data-src="lib/img/ben4.png" />
+				</div>
+			</section>
+			<section>
+				<div>
+					<h2>Next Steps:</h2>
+					<ul>
+						<li class="fragment fade-in">Port to React and Office UI Fabric, any takers?</li>
+						<li class="fragment fade-in">Sample code for use in Plugins</li>
+						<li class="fragment fade-in">Better theming</li>
+						<li class="fragment fade-in">Better (read: any) tests and documentation</li>
+						<li class="fragment fade-in">Portals?</li>
+						<li class="fragment fade-in">Microsoft to make this all obsolete and put it in the platform</li>
+					</ul>
 				</div>
 			</section>
 			<section>

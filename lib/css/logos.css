@@ -3,3 +3,7 @@
     background-color: transparent !important;
     box-shadow: none !important;
 }
+
+.android-screenshot {
+    height: 90% !important;
+}
